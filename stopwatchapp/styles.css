@@ -1,0 +1,74 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('cyberpunk2.jpeg'); /* Specify the path to your image */
+  /*background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+#h1{
+  font-size: 4rem;
+  font-family: Georgia ,serif;
+  /*color: hsl(0, 0%, 25%);*/
+  color: #000000;
+  /*text-shadow: 2px 2px 3px black;*/
+  text-shadow: 4px 4px 8px hsla(302, 82%, 25%, 0.674);
+
+}
+#watch{
+  font-size: 3rem;
+  font-family: monospace;
+  color: hsl(0, 0%, 20%);
+  text-shadow: 2px 1px 4px rgb(178, 33, 159);
+}
+#display{
+  font-size: 6rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: hsl(0, 26%, 83%);
+  text-shadow: 4px 4px 8px hsla(302, 78%, 44%, 0.674);
+  margin-bottom: 25px;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid;
+  border-radius: 20px;
+  padding: 40px;
+  /*background-color: hsl(0, 0%, 70%);*/
+  background-color: transparent;
+  box-shadow: 5px 5px 10px rgb(178, 33, 159);
+}
+#buttons button{
+  padding: 10px 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 30px;
+  min-width: 150px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5s ease;
+  box-shadow: 4px 4px 6px #9457E4;
+}
+#startButton{
+  background-color: hsl(120, 100%, 45%);
+}
+#startButton:hover{
+  background-color: hsl(120, 100%, 30%);
+}
+#stopButton{
+  background-color: hsl(0, 100%, 50%);
+}
+#stopButton:hover{
+  background-color: hsl(0, 100%, 30%);
+}
+#resetButton{
+  background-color: hsl(60, 100%, 45%);
+}
+#resetButton:hover{
+  background-color: hsl(60, 100%, 30%);
+}
